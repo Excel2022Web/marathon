@@ -1,0 +1,8 @@
+.excel {
+    height: 100vh;
+    background-color: #dbe12c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

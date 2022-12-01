@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: var(--primary-font);
 }
   
 /* VARIABLES */
 :root {
-    --primary-font: 'Raleway', sans-serif;
-    --secondary-font: 'Work Sans', sans-serif;
+    --primary-font: 'Nunito', sans-serif;
+    /* --secondary-font: 'Work Sans', sans-serif; */
     --bg-color: #ebeeee;
     --primary-color: #0e713f;
     --secondary-color: #86bbce;

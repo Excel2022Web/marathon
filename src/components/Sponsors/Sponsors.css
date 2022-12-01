@@ -1,0 +1,8 @@
+.sponsors {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dc143c;
+    color: #ffffff;
+}
