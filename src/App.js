@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import { Suspense, useEffect } from 'react'
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import AOS from 'aos';
+
+import ScrollToTop from "./utils/ScrollToTop"
+import { Navbar, Footer, Loader } from "./components";
+import { LandingPage } from './pages'
+
 import './App.css';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+    });
+  }, [])
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Suspense fallback={<Loader />}>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="*" element={<Navigate replace to="/" />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </Suspense>
     </div>
   );
 }

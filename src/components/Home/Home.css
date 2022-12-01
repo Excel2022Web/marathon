@@ -1,0 +1,8 @@
+.home {
+    height: 100vh;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
