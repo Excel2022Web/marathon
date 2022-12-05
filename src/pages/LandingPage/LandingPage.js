@@ -9,8 +9,8 @@ function LandingPage() {
     <div className='landingPage'>
       <Home />
       <About />
-      <Excel />
       <Schedule />
+      <Excel />
       <Sponsors />
       <Contact />
     </div>
