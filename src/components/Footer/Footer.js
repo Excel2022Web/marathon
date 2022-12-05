@@ -27,7 +27,7 @@ const Footer = () => {
             >
               <FiFacebook
                 style={{ border: "none" }}
-                className="contact_social_icon"
+                className="footer_social_icon"
               />
             </a>
             <a
@@ -35,21 +35,21 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FiInstagram className="contact_social_icon" />
+              <FiInstagram className="footer_social_icon" />
             </a>
             <a
               href="https://www.linkedin.com/company/excelmec/"
               target="_blank"
               rel="noreferrer"
             >
-              <FiLinkedin className="contact_social_icon" />
+              <FiLinkedin className="footer_social_icon" />
             </a>
             <a
               href="https://twitter.com/excelmec"
               target="_blank"
               rel="noreferrer"
             >
-              <FiTwitter className="contact_social_icon" />
+              <FiTwitter className="footer_social_icon" />
             </a>
           </div>
 

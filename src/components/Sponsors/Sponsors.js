@@ -13,7 +13,7 @@ function Sponsors() {
           {sponsorsData.map((sponsor) => (
             <a href={sponsor.url} key={sponsor.id} className="sponsor_details">
               <img src={sponsor.logo} alt="" />
-              <h2>{sponsor.name}</h2>
+              {/* <h2>{sponsor.name}</h2> */}
             </a>
           ))}
         </div>

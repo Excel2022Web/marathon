@@ -34,10 +34,10 @@ export const contactsData = [
     {
       id: 4,
       name: "Sania Maria Sabu",
-      designation: "General Secretary",
+      designation: "Social Initiatives Manager",
       image: sania,
-      phone: "7012910210",
-      email: "hemanthsagar.mec@gmail.com",
-      linkedIn: "https://www.linkedin.com/in/hemanth-sagar-j-c-292a98195",
+      phone: "7306928074",
+      email: "saniamariasabu.mec@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/sania-maria-sabu-1b059a1b2/",
     },
 ]
