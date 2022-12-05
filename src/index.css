@@ -5,6 +5,11 @@
     box-sizing: border-box;
     font-family: var(--primary-font);
 }
+
+html {
+    scroll-padding: 80px;
+    scroll-behavior: smooth;
+}
   
 /* VARIABLES */
 :root {

@@ -21,7 +21,7 @@ function Navbar() {
   const scrollPosition = useScrollPosition()
 
   const navStyle = {
-    background: scrollPosition > 200 ? "#04005e" : "transparent",
+    background: scrollPosition > 200 ? "#26648e" : "transparent",
     boxShadow:
       scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
   }
@@ -37,41 +37,20 @@ function Navbar() {
         </NavLink> */}
         </div>
         <div className="nav_contents">
-          <NavLink
-            to="/#about"
-            className="nav__link"
-          >
+          <NavLink to="/#about" className="nav__link">
             About
           </NavLink>
-          <NavLink
-            to="/#highlights"
-            className="nav__link"
-          >
-            Highlights
+          <NavLink to="/#schedule" className="nav__link">
+            Schedule
           </NavLink>
-          <NavLink
-            to="/#timeline"
-            className="nav__link"
-          >
-            Timeline
+          <NavLink to="/#excel" className="nav__link">
+            Excel
           </NavLink>
-          <NavLink
-            to="/#partners"
-            className="nav__link"
-          >
-            Participating Organizations
+          <NavLink to="/#sponsors" className="nav__link">
+            Sponsors
           </NavLink>
-          <NavLink
-            to="/#organizations"
-            className="nav__link"
-          >
-            Organized by
-          </NavLink>
-          <NavLink
-            to="/#team"
-            className="nav__link"
-          >
-            Contacts Us
+          <NavLink to="/#contact" className="nav__link">
+            Contact
           </NavLink>
         </div>
 
@@ -95,47 +74,20 @@ function Navbar() {
             <IoClose />
           </div>
           <div className="navbar__mobcontents">
-            <NavLink
-              to="/#about"
-              onClick={handleDrawerClose}
-              className="navmob__link"
-            >
+            <NavLink to="/#about" className="navmob__link" onClick={handleDrawerClose}>
               About
             </NavLink>
-            <NavLink
-              to="/#highlights"
-              onClick={handleDrawerClose}
-              className="navmob__link"
-            >
-              Highlights
+            <NavLink to="/#schedule" className="navmob__link" onClick={handleDrawerClose}>
+              Schedule
             </NavLink>
-            <NavLink
-              to="/#timeline"
-              onClick={handleDrawerClose}
-              className="navmob__link"
-            >
-              Timeline
+            <NavLink to="/#excel" className="navmob__link" onClick={handleDrawerClose}>
+              Excel
             </NavLink>
-            <NavLink
-              to="/#partners"
-              onClick={handleDrawerClose}
-              className="navmob__link"
-            >
-              Participating Organizations
+            <NavLink to="/#sponsors" className="navmob__link" onClick={handleDrawerClose}>
+              Sponsors
             </NavLink>
-            <NavLink
-              to="/#organizations"
-              onClick={handleDrawerClose}
-              className="navmob__link"
-            >
-              Organized by
-            </NavLink>
-            <NavLink
-              to="/#team"
-              onClick={handleDrawerClose}
-              className="navmob__link"
-            >
-              Contacts Us
+            <NavLink to="/#contact" className="navmob__link" onClick={handleDrawerClose}>
+              Contact
             </NavLink>
           </div>
         </div>

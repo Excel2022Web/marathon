@@ -4,7 +4,7 @@ import './Excel.css'
 
 function Excel() {
   return (
-    <div className='excel'>
+    <div className='excel' id="excel">
         <h1>AboutExcel </h1>
     </div>
   )
