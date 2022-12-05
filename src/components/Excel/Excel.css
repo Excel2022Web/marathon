@@ -1,6 +1,6 @@
 .excel {
     height: 100vh;
-    background-color: #dbe12c;
+    background-color: var(--bg-color);
     display: flex;
     flex-direction: column;
     align-items: center;

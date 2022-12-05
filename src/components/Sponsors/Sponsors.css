@@ -3,6 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #dc143c;
+    background-color: var(--bg-color);
     color: #ffffff;
 }

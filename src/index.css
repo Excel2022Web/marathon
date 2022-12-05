@@ -10,9 +10,10 @@
 :root {
     --primary-font: 'Nunito', sans-serif;
     /* --secondary-font: 'Work Sans', sans-serif; */
-    --bg-color: #ebeeee;
-    --primary-color: #0e713f;
-    --secondary-color: #86bbce;
+    --bg-color: #ffe3b3;
+    --primary-color: #26648e;
+    --secondary-color: #4f8fc0;
+    --tertiary-color: #53d2dc;
     --text-main: #333333;
 }
   
