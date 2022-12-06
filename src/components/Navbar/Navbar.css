@@ -37,13 +37,13 @@
     font-family: var(--primary-font);
     font-style: normal;
     align-items: center;
-    color: var(--bg-color);
-    font-size: 1rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
     cursor: pointer;
-    text-transform: uppercase;
-    opacity: 0.8;
-    font-weight: 500;
+    opacity: 0.9;
+    font-weight: 600;
 }
+
   
 .nav__link:hover {
     opacity: 1;
@@ -60,6 +60,41 @@ a {
 .avatarIcon {
     cursor: pointer;
 }
+
+
+.nav_register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_register_btn {
+    border-radius: 60px;
+    background: var(--primary-color);
+    font-family: var(--primary-font);
+    font-style: normal;
+    align-items: center;
+    color: var(--bg-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0.9;
+    font-weight: 600;
+    width: 130px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.nav_register_btn:hover {
+    background: var(--secondary-color) radial-gradient(circle, transparent 1%, var(--secondary-color) 1%) center/15000%;
+}
+.nav_register_btn:active {
+    background-color: var(--primary-color);
+    background-size: 100%;
+    transition: background 0s;
+  }
   
   
 @media screen and (max-width: 1200px) {

@@ -1,8 +1,36 @@
 .home {
     height: 100vh;
     padding-top: 70px;
+    background-color: var(--bg-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-color);
+}
+
+.home__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0; 
+    gap: 2rem;
+}
+
+.home__left, .home__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__left {
+    flex: 0.6;
+}
+.home__right {
+    flex: 0.4;
+}
+
+.home_img {
+    width: 70%;
+    pointer-events: none;
 }
