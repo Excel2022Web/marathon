@@ -10,7 +10,7 @@ function Home() {
     <div className='home'>
       <div className='home__container'>
         <div className='home__left'>
-
+          
         </div>
         <div className='home__right'>
           <img src={home_img} className="home_img" alt=""/>
