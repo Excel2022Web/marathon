@@ -8,8 +8,8 @@ function LandingPage() {
   return (
     <div className='landingPage'>
       <Home />
-      <Banner />
       <About />
+      <Banner />
       <Schedule />
       <GMaps />
       <Excel />
