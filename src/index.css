@@ -4,7 +4,6 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--primary-font);
 }
 
 html {
@@ -17,7 +16,7 @@ html {
     --primary-font: 'Nunito', sans-serif;
     --secondary-font: 'Montserrat', sans-serif;
     --bg-color: #ffe3b3;
-    --primary-color: #26648e;
+    --primary-color: #0e6da5;
     --secondary-color: #4f8fc0;
     --tertiary-color: #53d2dc;
     --text-main: #333333;

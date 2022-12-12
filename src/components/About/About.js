@@ -8,11 +8,9 @@ function About() {
       <div className='about__container'>
         <div className='about__left'>
           <div className='al__content'>
-            <h1>TIME</h1>
-            <h1>TO</h1>
-            <h1>RUN</h1>
-            <h1>THE</h1>
-            <h1>MILE</h1>
+            <h1>OPENING NIGHT AT INTERNATIONAL MUSEUM </h1>
+            <h3>FEB 15th, 2023</h3>
+            <h5>Durbar Hall</h5>
           </div>
         </div>
         <div className='about__right'>
