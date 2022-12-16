@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/clash-display');
 
 * {
     margin: 0;
@@ -13,8 +14,8 @@ html {
   
 /* VARIABLES */
 :root {
-    --primary-font: 'Nunito', sans-serif;
-    --secondary-font: 'Montserrat', sans-serif;
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Clash Display';
     --bg-color: #ffe3b3;
     --primary-color: #0e6da5;
     --secondary-color: #4f8fc0;
