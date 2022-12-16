@@ -1,5 +1,5 @@
 .about {
-    height: calc(100vh - 80px);
+    height: 100vh;
     background: #22A9EF;
     display: flex;
     flex-direction: column;
@@ -9,9 +9,10 @@
 
 .about__container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 .about__left {
@@ -23,43 +24,95 @@
 
 .about_map_div {
     display: flex;
+    position: relative;
+}
+.map_event {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 62.93px;
+    height: 245.05px;
+    background: #FBD22D;
+    transform: translate(0, -50%) rotate(60deg);
+}
+
+.map_event p {
+    transform: translate(0, 170px) rotate(-90deg);
+    white-space: nowrap;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ECF5F8;
 }
 
 .about_map_div img {
-    height: 80%;
+    width: 440px;
 }
 
 .about__right {
     flex: 0.5;
 }
 
-.al__content h1 {
-    font-family: var(--secondary-font);
-    padding: 0;
-    font-size: 4rem;
-    line-height: 106%;
-    font-weight: 800;
-    text-align: center;
-}
-
-.al__content h3 {
-    color: var(--bg-color);
-    font-family: var(--secondary-font);
-    font-size: 2rem;
-    margin-top: 2rem;
-}
-
-.al__content h5 {
-    color: var(--bg-color);
-    font-family: var(--secondary-font);
-    font-size: 1.25rem;
-    opacity: 0.8;
-}
-
-.al__content {
+.ar__content {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.ar__content h1 {
+    font-family: var(--secondary-font);
+    padding: 0;
+    font-size: 3rem;
+    line-height: 106%;
+    font-weight: 800;
+    color: #ECF5F8;
+
+}
+
+.ar__content p {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ECF5F8;
+}
+
+.ar_footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ar__item {
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.25rem;
+    /* gap: 1rem; */
+    background: rgba(255, 255, 255, 0.16);
+    width: 180px;
+    height: 80px;  
+    color: #ECF5F8; 
+    padding: 0.5rem;
+}
+
+.ar__item_icon {
+    flex-shrink: 0;
+    flex: 0.3;
+    font-size: 1.35rem;
+}
+
+.ar__item p {
+    flex: 0.7;
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 5600;
+    font-size: 1rem;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }

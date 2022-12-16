@@ -13,7 +13,7 @@ function Home() {
       <div className='home__container'>
         <div className='home__left'>
           <h1>mindful minds <br /><span>matter</span></h1>
-          <p>Lorem ipsum dolor sit amet consectetur. Sit ultricies tellus ornare dolor. Et dictumst in faucibus tristique tincidunt. In est mauris sagittis eros vel. In massa diam amet diam magna sed.</p>
+          {/* <p>Lorem ipsum dolor sit amet consectetur. Sit ultricies tellus ornare dolor. Et dictumst in faucibus tristique tincidunt. In est mauris sagittis eros vel. In massa diam amet diam magna sed.</p> */}
           <button className='home_reg_btn'>
             Register Now
             <HiChevronDoubleRight />
