@@ -7,7 +7,7 @@ import mobileImg from '../../assets/png/mobileimg.png'
 
 function Excel() {
   return (
-    <div className='excel' id="excel">
+    <div className='excel' id="coordinators">
       <div className='excel_container'>
         <div className='excel_left'>
             <div className='excel_left_title'>

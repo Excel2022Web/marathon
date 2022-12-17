@@ -49,14 +49,14 @@ function Navbar() {
           <NavLink to="/#about" className="nav__link" activeStyle={activeStyle}>
             About
           </NavLink>
+          <NavLink to="/#sponsors" className="nav__link" activeStyle={activeStyle}>
+            Sponsors
+          </NavLink>
           <NavLink to="/#schedule" className="nav__link" activeStyle={activeStyle}>
             Schedule
           </NavLink>
-          <NavLink to="/#excel" className="nav__link" activeStyle={activeStyle}>
+          <NavLink to="/#coordinators" className="nav__link" activeStyle={activeStyle}>
             Excel
-          </NavLink>
-          <NavLink to="/#sponsors" className="nav__link" activeStyle={activeStyle}>
-            Sponsors
           </NavLink>
           <NavLink to="/#contact" className="nav__link" activeClassName="nav__link_active">
             Contact
@@ -86,20 +86,20 @@ function Navbar() {
             <IoClose />
           </div>
           <div className="navbar__mobcontents">
-            <NavLink to="/#about" className="navmob__link" onClick={handleDrawerClose}>
+            <NavLink to="/#" className="navmob__link" onClick={handleDrawerClose}>
               Home
             </NavLink>
             <NavLink to="/#about" className="navmob__link" onClick={handleDrawerClose}>
               About
             </NavLink>
+            <NavLink to="/#sponsors" className="navmob__link" onClick={handleDrawerClose}>
+              Sponsors
+            </NavLink>
             <NavLink to="/#schedule" className="navmob__link" onClick={handleDrawerClose}>
               Schedule
             </NavLink>
-            <NavLink to="/#excel" className="navmob__link" onClick={handleDrawerClose}>
-              Excel
-            </NavLink>
-            <NavLink to="/#sponsors" className="navmob__link" onClick={handleDrawerClose}>
-              Sponsors
+            <NavLink to="/#coordinators" className="navmob__link" onClick={handleDrawerClose}>
+              Coordinators
             </NavLink>
             <NavLink to="/#contact" className="navmob__link" onClick={handleDrawerClose}>
               Contact
