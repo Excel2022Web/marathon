@@ -8,6 +8,7 @@ import { useScrollPosition } from "../../hooks/useScrollPosition"
 import "./Navbar.css"
 
 import marathon_logo_text from '../../assets/png/marathon_logo_text.png'
+import excel_logo_text from '../../assets/png/excel_logo_text.png'
 
 function Navbar() {
   const [drawer, setDrawer] = useState(false)
@@ -23,7 +24,7 @@ function Navbar() {
   const scrollPosition = useScrollPosition()
 
   const navStyle = {
-    background: scrollPosition > 200 ? "#0F273D" : "transparent",
+    background: scrollPosition > 100 ? "#0F273D" : "transparent",
     boxShadow:
       scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
   }
@@ -61,8 +62,8 @@ function Navbar() {
             Contact
           </NavLink>
         </div>
-        <div className="nav_register">
-          <button className="nav_register_btn">Register</button>
+        <div className="nav_excel">
+          <img src={excel_logo_text} alt="" />
         </div>
 
         <div className="nav_hamburger" onClick={handleDrawerOpen}>
