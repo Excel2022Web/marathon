@@ -63,7 +63,7 @@ function Home() {
               </div>
             </div>
           </div>
-        <div className='home__left'>
+        <div className='home__left' data-aos="zoom-in" data-aos-duration="1200">
           <h1>mindful minds <br /><span>matter</span></h1>
           <p>Lorem ipsum dolor sit amet consectetur. Sit ultricies tellus ornare dolor. Et dictumst in faucibus tristique tincidunt.</p>
           <button className='home_reg_btn'>
@@ -72,10 +72,10 @@ function Home() {
           </button>
         </div>
         <div className='home__right'>
-          <img src={landing_avatar} alt="" className='landing_avatar' />
+          <img src={landing_avatar} alt="" className='landing_avatar' data-aos="fade-left"  data-aos-easing="ease-in-sine"/>
         </div>
       </div>
-      <img src={chart} alt="" className='landing_curve' />
+      <img src={chart} alt="" className='landing_curve'/>
     </div>
   )
 }
