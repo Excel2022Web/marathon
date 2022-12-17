@@ -21,7 +21,7 @@ function Excel() {
               <h4 className='excel_title'>Excel</h4>
               <div className='excel_line'></div>
             </div>
-            <p className='excel_desc1'>Lorem ipsum dolor sit amet consectetur. Lacus nisl praesent dapibus varius. Vivamus odio feugiat adipiscing scelerisque sed elit in. Commodo egestas dapibus viverra dignissim gravida eget sed ac id. Vivamus odio feugiat adipiscing scelerisque sed elit in. Lorem ipsum dolor sit amet</p>
+            <p className='excel_desc1'>Excel is the annual national level techno-managerial fest of Govt. Model Engineering College. Conceived in 2001 by the students, Excel has grown exponentially, providing a strong platform which hosts technical, managerial and general events. These events are scheduled over three action packed days. Apart from a series of high profile events like IBeTo (Innovations for a Better Tomorrow), Untitled and .ISSUE!, Excel conducts online competitions, workshops, talks and seminars, video conferences, exhibitions and pro shows.</p>
           </div>
           <div className='img_container'>
             <img src={mainImg} alt='' className='excel_img' />
