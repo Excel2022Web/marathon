@@ -6,15 +6,19 @@ import { NavHashLink as NavLink } from "react-router-hash-link"
 
 import "./Footer.css"
 import excel_logo from "../../assets/logo/excellogowithtext.png"
-import mec_logo from "../../assets/svg/collegelogo.svg"
+import mec_logo from "../../assets/logo/mec_logo.png"
 
 const Footer = () => {
   return (
     <div className="footer">
        <div className="footer_left">
           <div className="footer_img">
-            <img src={excel_logo} alt='' className="excel-logo"/>
-            <img src={mec_logo} alt='' className="mec-logo" />
+            <a href="https://www.excelmec.org/" target="_blank" rel="noreferrer">
+              <img src={excel_logo} alt='' className="excel-logo"/>
+            </a>
+            <a href="https://www.mec.ac.in/" target="_blank" rel="noreferrer">
+              <img src={mec_logo} alt='' className="mec-logo" />
+            </a>
           </div>
           <h4 className="footer_desc_desktop"> Made with <span><FaHeart className="footer_heart"/></span> Excel 2022</h4>
           
