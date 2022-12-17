@@ -3,6 +3,7 @@ import React from 'react'
 import './Excel.css'
 
 import mainImg from '../../assets/png/mainimg.png'
+import mobileImg from '../../assets/png/mobileimg.png'
 
 function Excel() {
   return (
@@ -24,6 +25,9 @@ function Excel() {
           </div>
           <div className='img_container'>
             <img src={mainImg} alt='' className='excel_img' />
+          </div>
+          <div className='img_container1'>
+            <img src={mobileImg} alt='' className='excel_img_mobile' />
           </div>
       </div>
         
