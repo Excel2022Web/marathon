@@ -20,7 +20,22 @@ function About() {
         <div className='about__right'>
           <div className='ar__content'>
             <h1>OPENING NIGHT AT INTERNATIONAL MUSEUM </h1>
-            <p>Lorem ipsum dolor sit amet consectetur. Lacus nisl praesent dapibus varius. Vivamus odio feugiat adipiscing scelerisque sed elit in. Commodo egestas dapibus viverra dignissim gravida eget sed ac id. Vivamus odio feugiat adipiscing scelerisque sed elit in. Lorem ipsum dolor sit amet. Lacus nisl praesent dapibus varius. Vivamus odio feugiat adipiscing scelerisque sed elit in. Commodo egestas dapibus viverra dignissim gravida eget sed ac id. Vivamus odio feugiat adipiscing scelerisque sed elit in. </p>
+            <p>
+              They say a sound mind resides in a sound body. In this age of stress and anxiety,
+              mental health issues are becoming commonplace.  <br /><br />
+
+              Yet there is a ton of stigma
+              surrounding this. Many people are reluctant to open up and speak about mental health as they fear social exclusion. Mental health issues, if not attended to in the
+              right manner, can lead to devastating psychological effects crippling human life. <br />
+
+              One of the reasons for mental stress is the lack of physical activity due to the
+              increase in hours spent on electronic devices both for work and leisure.  <br />
+
+              Exercise
+              can provide mental stress relief. Regular exercise can improve your mood, help you
+              relax, and lower symptoms of mild depression and anxiety. Exercise can also
+              improve your sleep, which is often disrupted by mental stress.
+            </p>
             <div className='ar_footer'>
               <div className='ar__item'>
                 <FiMapPin className='ar__item_icon'/>
