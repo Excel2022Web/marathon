@@ -54,15 +54,11 @@
     height: 8px;
     content: "";
     left: 50%;
-    margin-left: -25%;
+    margin-left: -45%;
     background-color: #FBD22D;
 }
 
-.excel_line {
-    display: block;
-    color: #FBD22D;
-    height: 5px;
-}
+
 
 
 .excel_desc {
@@ -91,6 +87,10 @@
     align-items: flex-end;
     justify-content: flex-end;
     gap: 1rem;
+}
+
+.excel_right_title .excel_title::before {
+    margin-left: -5%;
 }
 
 .excel_desc1 {
@@ -150,11 +150,20 @@
         position: relative;
     }
 
+    .excel_left {
+        padding: 2rem;
+    }
+
     .excel_right {
+        padding: 2rem;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+    }
+
+    .excel_right_title .excel_title::before {
+        margin-left: -45%;
     }
 
     .excel_desc1 {
