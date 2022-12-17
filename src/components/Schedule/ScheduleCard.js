@@ -4,7 +4,7 @@ import './Schedule.css'
 
 function ScheduleCard() {
   return (
-    <div className='schedule_card'>
+    <div className='schedule_card' data-aos="fade-up" data-aos-duration="1200">
         <div className='scard_timeline'>
             <h4 className='scard_time1'>09:30 </h4>
             <h6 className='scard_time2'>AM</h6>

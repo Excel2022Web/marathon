@@ -9,7 +9,7 @@ function About() {
   return (
     <div className='about' id='about'>
       <div className='about__container'>
-        <div className='about__left'>
+        <div className='about__left' data-aos="fade-right" data-aos-duration="1200">
           <div className='about_map_div'>
             <div className='map_event'>
               <p>Marathon Route</p>
@@ -17,7 +17,7 @@ function About() {
             <img src={map} alt="" />
           </div>
         </div>
-        <div className='about__right'>
+        <div className='about__right' data-aos="fade-left" data-aos-duration="1200">
           <div className='ar__content'>
             <h1>OPENING NIGHT AT INTERNATIONAL MUSEUM </h1>
             <p>
