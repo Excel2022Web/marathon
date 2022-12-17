@@ -45,15 +45,16 @@ const Footer = () => {
           <NavLink to='/#about' className="footer_link">
             About
           </NavLink>
+          <NavLink to='/#sponsors' className="footer_link">
+            Sponsors
+          </NavLink>
           <NavLink to='/#schedule' className="footer_link">
             Schedule
           </NavLink>
           <NavLink to='/#excel' className="footer_link">
             Excel
           </NavLink>
-          <NavLink to='/#sponsors' className="footer_link">
-            Sponsors
-          </NavLink>
+          
           <NavLink to='/#contact' className="footer_link">
             Contact
           </NavLink>
