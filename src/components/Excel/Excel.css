@@ -1,9 +1,14 @@
 .excel {
     height: 50vh;
+}
+
+.excel_container {
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .excel_left {
@@ -15,6 +20,7 @@
     align-items: flex-start;
     justify-content: center;
     background-color: #22A9EF;
+    gap: 1.5rem;
 }
 
 .excel_left_title {
@@ -27,9 +33,29 @@
 
 .excel_title {
     font-family: var(--primary-font);
-    font-size: 3.5rem;
+    font-style: normal;
     font-weight: 800;
+    font-size: 30px;
+    line-height: 95%;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
     color: #fff;
+    text-align: center;
+    padding: 5px;
+    letter-spacing:none;
+    position: relative;
+}
+
+.excel_title::before {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 50%;
+    height: 8px;
+    content: "";
+    left: 50%;
+    margin-left: -25%;
+    background-color: #FBD22D;
 }
 
 .excel_line {
@@ -45,6 +71,7 @@
     color: #fff;
     font-weight: 400;
     text-align: left;
+    width: 80%;
 }
 .excel_right {
     height: 100%;
@@ -55,6 +82,7 @@
     align-items: flex-end;
     justify-content: center;
     background-color: #0E92D7;
+    gap: 1.5rem;
 }
 
 .excel_right_title {
@@ -71,4 +99,13 @@
     color: #fff;
     font-weight: 400;
     text-align: right;
+    width: 80%;
+}
+
+.img_container {
+    position: absolute;
+}
+
+.excel_img {
+    width: 250px;
 }
