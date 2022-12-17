@@ -39,6 +39,7 @@
   font-size: 1rem;
   font-family: var(--primary-font);
   font-weight: 400;  
+  color: #fff;
 }
 
 .footer_right {
@@ -112,6 +113,7 @@
   }
 
    .footer_socialicon {
+    margin-top: 1rem;
     align-self: center;
    }
 
