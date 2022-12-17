@@ -1,5 +1,5 @@
 import React from 'react'
-import CircleLoader from "react-spinners/CircleLoader";
+import DotLoader from "react-spinners/DotLoader";
 
 
 import './Loader.css'
@@ -7,7 +7,7 @@ import './Loader.css'
 function Loader() {
   return (
     <div className='loader'>
-      <CircleLoader size={65} color="#b33c86"/>
+      <DotLoader size={65} color="#FBD22D"/>
     </div>
   )
 }
