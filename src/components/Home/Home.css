@@ -267,6 +267,7 @@
         align-items: center;
         height: 80px;
         width: 100%;
+        z-index: 2;
     }
 
     .c_starts {
