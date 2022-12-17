@@ -3,6 +3,8 @@ import sebin from "../assets/images/sebin.jpeg";
 import hemanthsagar from "../assets/images/hemanthsagar.jpeg";
 import sania from "../assets/images/sania.png";
 import cijo from "../assets/images/cijo.jpeg";
+import sanchez from "../assets/images/sanchez.jpeg";
+import pranav from "../assets/images/pranav.jpg";
 
 export const contactsData = [
     {
@@ -45,7 +47,7 @@ export const contactsData = [
       id: 5,
       name: "Pranav Jayasankar",
       designation: "Event Head",
-      image: sebin,
+      image: pranav,
       phone: "9495936026",
       email: "pranav.pj27c@gmail.com",
       linkedIn: "https://www.linkedin.com/in/pranav-jayashankar-0855271a5/",
@@ -54,7 +56,7 @@ export const contactsData = [
       id: 6,
       name: "Sanchez Thomson N",
       designation: "Event Head",
-      image: sania,
+      image: sanchez,
       phone: "8281682481",
       email: "sanchezthomsonneelamkavil@gmail.com",
       linkedIn: "https://www.linkedin.com/in/sanchez-thomson-neelamkavil-a3a6651a5",
