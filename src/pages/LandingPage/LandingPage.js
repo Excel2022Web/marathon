@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Home, About, Excel, Sponsors, Contact } from '../../components'
+import { Home, About, Excel, Sponsors, Contact, Schedule } from '../../components'
 
 import './LandingPage.css'
 
@@ -9,10 +9,10 @@ function LandingPage() {
     <div className='landingPage'>
       <Home />
       <About />
-      {/* <Schedule /> */}
+      <Sponsors />
+      <Schedule />
       {/* <GMaps /> */}
       <Excel />
-      <Sponsors />
       <Contact />
     </div>
   )
