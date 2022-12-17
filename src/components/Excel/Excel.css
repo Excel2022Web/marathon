@@ -1,8 +1,74 @@
 .excel {
-    height: 100vh;
-    background-color: var(--bg-color);
+    height: 50vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.excel_left {
+    height: 100%;
+    padding: 4rem;
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #22A9EF;
+}
+
+.excel_left_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.excel_title {
+    font-family: var(--primary-font);
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.excel_line {
+    display: block;
+    color: #FBD22D;
+    height: 5px;
+}
+
+
+.excel_desc {
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    color: #fff;
+    font-weight: 400;
+    text-align: left;
+}
+.excel_right {
+    height: 100%;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #0E92D7;
+}
+
+.excel_right_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.excel_desc1 {
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    color: #fff;
+    font-weight: 400;
+    text-align: right;
 }
