@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Home, About, Excel, GMaps, Sponsors, Contact } from '../../components'
+import { Home, About, Excel, Sponsors, Contact } from '../../components'
 
 import './LandingPage.css'
 
@@ -10,7 +10,7 @@ function LandingPage() {
       <Home />
       <About />
       {/* <Schedule /> */}
-      <GMaps />
+      {/* <GMaps /> */}
       <Excel />
       <Sponsors />
       <Contact />

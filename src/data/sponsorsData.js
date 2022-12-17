@@ -1,33 +1,17 @@
+import ukxpress from  '../assets/logo/ukxpress.jpg'
+import club_fm from  '../assets/logo/club_fm.svg'
 
 export const sponsorsData = [
     {
         id: 1,
-        name: 'Sponsor 1',
+        name: 'UKExpress',
         url: '',
-        logo: 'https://1000logos.net/wp-content/uploads/2019/06/Amazon-Logo.jpg'
+        logo: ukxpress
     },
     {
         id: 2,
-        name: 'Sponsor 2',
+        name: 'Club FM',
         url: '',
-        logo: 'https://1000logos.net/wp-content/uploads/2021/05/Asana-logo-tumb.jpg'
-    },
-    {
-        id: 3,
-        name: 'Sponsor 4',
-        url: '',
-        logo: 'https://1000logos.net/wp-content/uploads/2020/09/BlaBlaCar-logo-tumb.jpg'
-    },
-    {
-        id: 4,
-        name: 'Sponsor 4',
-        url: '',
-        logo: 'https://1000logos.net/wp-content/uploads/2020/09/Cloudflare-logo-tumb.jpg'
-    },
-    {
-        id: 5,
-        name: 'Sponsor 1',
-        url: '',
-        logo: 'https://1000logos.net/wp-content/uploads/2019/06/Amazon-Logo.jpg'
+        logo: club_fm
     },
 ]

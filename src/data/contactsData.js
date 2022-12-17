@@ -2,6 +2,7 @@ import nasreen from "../assets/images/nasreen.jpeg";
 import sebin from "../assets/images/sebin.jpeg";
 import hemanthsagar from "../assets/images/hemanthsagar.jpeg";
 import sania from "../assets/images/sania.png";
+import cijo from "../assets/images/cijo.jpeg";
 
 export const contactsData = [
     {
@@ -62,7 +63,7 @@ export const contactsData = [
       id: 7,
       name: "Cijo Jose",
       designation: "Event Head",
-      image: sania,
+      image: cijo,
       phone: "9496993697",
       email: "cjcode2022@gmail.com",
       linkedIn: "https://www.linkedin.com/in/cijo-jose-01b59425a/",
