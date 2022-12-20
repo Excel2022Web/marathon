@@ -19,7 +19,7 @@ function About() {
         </div>
         <div className='about__right' data-aos="fade-left" data-aos-duration="1200">
           <div className='ar__content'>
-            <h1>OPENING NIGHT AT INTERNATIONAL MUSEUM </h1>
+            <h1>AWAITING YOU AT DURBAR HALL </h1>
             <p>
               They say a sound mind resides in a sound body. In this age of stress and anxiety,
               mental health issues are becoming commonplace.  <br /><br />
@@ -43,11 +43,11 @@ function About() {
               </div>
               <div className='ar__item'>
                 <FiCalendar className='ar__item_icon'/>
-                <p>February <br />4, 2023</p>
+                <p>February <br />5, 2023</p>
               </div>
               <div className='ar__item'>
                 <FiClock className='ar__item_icon'/>
-                <p>9:30 am - 12:30 PM</p>
+                <p>6:30 am - 9:30 PM</p>
               </div>
             </div>
           </div>
