@@ -4,7 +4,7 @@ import nasreen from "../assets/images/nasreen.jpeg";
 import sania from "../assets/images/sania.png";
 import cijo from "../assets/images/cijo.jpeg";
 import sanchez from "../assets/images/sanchez.jpeg";
-import pranav from "../assets/images/pranav.jpg";
+import pranav from "../assets/images/pranav.jpeg";
 
 export const contactsData = [
     {

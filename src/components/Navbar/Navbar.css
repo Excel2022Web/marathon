@@ -142,10 +142,10 @@ a {
   
     .navmob__link {
         gap: 2.5rem;
-        font-family: var(--primary-font);
+        font-family: var(--secondary-font);
         font-style: normal;
         align-items: center;
-        color: var(--bg-color);
+        color: #ECF5F8;
         font-size: 1.2rem;
         cursor: pointer;
         text-transform: uppercase;

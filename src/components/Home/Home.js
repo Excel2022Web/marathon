@@ -4,10 +4,11 @@ import { HiChevronDoubleRight } from "react-icons/hi";
 import './Home.css'
 
 import chart from '../../assets/png/chart.png'
-import landing_avatar from '../../assets/svg/landing_avatar.svg'
+import landing_avatar from '../../assets/svg/landing_avatar.svg'  
+
 
 const calculateTimeLeft = () => {
-  let difference = +new Date("2023-02-04T10:00:00+05:30") - +new Date(); // MM/DD/YYYY
+  let difference = +new Date("2023-02-05T10:00:00+05:30") - +new Date(); // MM/DD/YYYY
   let timeLeft = {};
 
   if (difference > 0) {
@@ -64,8 +65,8 @@ function Home() {
             </div>
           </div>
         <div className='home__left'>
-          <h1>mindful minds <br /><span>matter</span></h1>
-          <p>Lorem ipsum dolor sit amet consectetur. Sit ultricies tellus ornare dolor. Et dictumst in faucibus tristique tincidunt.</p>
+          <h1>mindful miles <br /><span>matter</span></h1>
+          <p>Run with us on 5th February to spread awareness and reduce the stigma around mental illness!</p>
           <button className='home_reg_btn'>
             Register Now
             <HiChevronDoubleRight />

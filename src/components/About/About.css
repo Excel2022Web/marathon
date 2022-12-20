@@ -33,7 +33,7 @@
     width: 50px;
     height: 245px;
     background: #FBD22D;
-    transform: translate(0, -50%) rotate(60deg);
+    transform: translate(-75px, 0%) rotate(0deg);
 }
 
 .map_event p {
@@ -182,6 +182,7 @@
 
     .about_map_div img {
         width: 400px;
+        margin-top: 3rem;
     }
     .about__right {
         flex: 1;
@@ -234,6 +235,9 @@
     }
     .about__right {
         flex: 1;
+    }
+    .ar__content h1 {
+        font-size: 1.5rem;
     }
     .ar__content p {
         font-size: 0.9rem;

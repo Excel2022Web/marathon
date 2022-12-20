@@ -55,8 +55,8 @@ function Navbar() {
           <NavLink to="/#schedule" className="nav__link" activeStyle={activeStyle}>
             Schedule
           </NavLink>
-          <NavLink to="/#coordinators" className="nav__link" activeStyle={activeStyle}>
-            Excel
+          <NavLink to="/#organizers" className="nav__link" activeStyle={activeStyle}>
+            Organizers
           </NavLink>
           <NavLink to="/#contact" className="nav__link" activeClassName="nav__link_active">
             Contact
@@ -98,8 +98,8 @@ function Navbar() {
             <NavLink to="/#schedule" className="navmob__link" onClick={handleDrawerClose}>
               Schedule
             </NavLink>
-            <NavLink to="/#coordinators" className="navmob__link" onClick={handleDrawerClose}>
-              Coordinators
+            <NavLink to="/#organizers" className="navmob__link" onClick={handleDrawerClose}>
+              Organizers
             </NavLink>
             <NavLink to="/#contact" className="navmob__link" onClick={handleDrawerClose}>
               Contact

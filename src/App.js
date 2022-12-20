@@ -4,7 +4,7 @@ import AOS from 'aos';
 
 import ScrollToTop from "./utils/ScrollToTop"
 import { Navbar, Footer, Loader } from "./components";
-import { LandingPage } from './pages'
+import { LandingPage, SuccessPage } from './pages'
 
 import './App.css';
 
@@ -24,6 +24,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/success" element={<SuccessPage />} />
             <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>
           <Footer />

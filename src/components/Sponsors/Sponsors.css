@@ -99,7 +99,9 @@
 }
 
 @media screen and (max-width: 600px) {
-
+    .sponsors_section {
+        gap: 2rem;
+    }
 }
 
 @media screen and (max-width: 400px) {

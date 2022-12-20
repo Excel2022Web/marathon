@@ -7,14 +7,14 @@ import mobileImg from '../../assets/png/mobileimg.png'
 
 function Excel() {
   return (
-    <div className='excel' id="coordinators">
+    <div className='excel' id="organizers">
       <div className='excel_container'>
         <div className='excel_left'>
             <div className='excel_left_title'>
               <h4 className='excel_title'>FORTITUDE</h4>
               <div className='excel_line'></div>
             </div>
-            <p className='excel_desc'>Lorem ipsum dolor sit amet consectetur. Lacus nisl praesent dapibus varius. Vivamus odio feugiat adipiscing scelerisque sed elit in. Commodo egestas dapibus viverra dignissim gravida eget sed ac id. Vivamus odio feugiat adipiscing scelerisque sed elit in. Lorem ipsum dolor sit amet</p>
+            <p className='excel_desc'>Fortitude is the mental health club of Model Engineering College. The club aims to spark and engage conversations around mental health in the campus. <br />Established in late 2020, Fortitude has since then conducted several activities to address mental health issues among students and to provide avenues for them to seek professional help.</p>
           </div>
           <div className='excel_right'>
             <div className='excel_right_title'>
