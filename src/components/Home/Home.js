@@ -73,10 +73,10 @@ function Home() {
           </button>
         </div>
         <div className='home__right'>
-          <img src={landing_avatar} alt="" className='landing_avatar' />
+          <img src={landing_avatar} alt="" className='landing_avatar' data-aos="fade-left"  data-aos-easing="ease-in-sine"/>
         </div>
       </div>
-      <img src={chart} alt="" className='landing_curve' />
+      <img src={chart} alt="" className='landing_curve'/>
     </div>
   )
 }

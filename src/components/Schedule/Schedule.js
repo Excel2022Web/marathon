@@ -8,7 +8,7 @@ function Schedule() {
   return (
     <div className='schedule' id='schedule'>
       <div className='schedule_container'>
-        <h1 className="section__title" >Schedule</h1>
+        <h1 className="section__title" data-aos="fade-up" data-aos-duration="1200">Schedule</h1>
         <div className='schedule_timeline'>
           <ScheduleCard />
           <ScheduleCard />

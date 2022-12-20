@@ -3,7 +3,7 @@ import { FiLinkedin, FiMail, FiPhone } from "react-icons/fi";
 
 function ContactCard({ name, designation, image, email, phone, linkedIn }) {
   return (
-    <div className="contactCard">
+    <div className="contactCard" data-aos="fade-up" data-aos-duration="800">
       <div className="contact_img">
         <img src={image} alt="contactimg" />
       </div>
