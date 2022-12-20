@@ -79,6 +79,9 @@
     .sponsors_container {
         width: 100%;
     }
+    .sponsors {
+        min-height: 50vh;    
+    }
 }
 
 @media screen and (max-width: 800px) {
