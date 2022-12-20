@@ -1,5 +1,5 @@
 .schedule {
-    min-height: 100vh;
+    min-height: 60vh;
 }
 
 .schedule_container {
@@ -68,6 +68,19 @@
     color: #12374F;
     font-size: 0.9rem;
     font-weight: 400;
+}
+
+.schedule_coming {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 1rem;
+}
+
+.schedule_coming h1 {
+    font-family: var(--primary-font);
+    color: #0E92D7;
 }
 
 @media screen and (max-width: 1200px) {
