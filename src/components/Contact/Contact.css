@@ -41,7 +41,7 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 1rem;
     gap: 0.25rem;
     font-family: var(--primary-font);
@@ -76,7 +76,7 @@
     font-size: 13px;
     text-transform: uppercase;
     opacity: 0.85;
-    text-align: left;
+    text-align: center;
     line-height: 105%;
     color: #FBD22D;
 }

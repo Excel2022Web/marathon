@@ -62,9 +62,9 @@ function Navbar() {
             Contact
           </NavLink>
         </div>
-        <div className="nav_excel">
+        <a href="https://www.excelmec.org/" target="_blank" rel="noreferrer" className="nav_excel">
           <img src={excel_logo_text} alt="" />
-        </div>
+        </a>
 
         <div className="nav_hamburger" onClick={handleDrawerOpen}>
           <IoMenu className="nam_menu_icon" />
