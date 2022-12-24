@@ -1,6 +1,6 @@
 import nasreen from "../assets/images/nasreen.jpeg";
 // import sebin from "../assets/images/sebin.jpeg";
-// import hemanthsagar from "../assets/images/hemanthsagar.jpeg";
+import khushi from "../assets/images/khushi.jpeg";
 import sania from "../assets/images/sania.png";
 import cijo from "../assets/images/cijo.jpeg";
 import sanchez from "../assets/images/sanchez.jpeg";
@@ -10,7 +10,7 @@ export const contactsData = [
     {
       id: 1,
       name: "Nasreen K Basheer",
-      designation: "Chairperson",
+      designation: "Chairperson, Excel",
       image: nasreen,
       phone: "9605204433",
       email: "nasreenkbasheer.mec@gmail.com",
@@ -37,7 +37,7 @@ export const contactsData = [
     {
       id: 4,
       name: "Sania Maria Sabu",
-      designation: "Social Initiatives Manager",
+      designation: "Social Initiatives Manager, Excel",
       image: sania,
       phone: "7306928074",
       email: "saniamariasabu.mec@gmail.com",
@@ -45,6 +45,15 @@ export const contactsData = [
     },
     {
       id: 5,
+      name: "Khushi Shah",
+      designation: "Chairperson, Fortitude",
+      image: khushi,
+      phone: "7306353378",
+      email: "khushi.bharat.shah@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/khushi-bharat-shah/",
+    },
+    {
+      id: 6,
       name: "Pranav Jayasankar",
       designation: "Event Head",
       image: pranav,
@@ -53,7 +62,7 @@ export const contactsData = [
       linkedIn: "https://www.linkedin.com/in/pranav-jayashankar-0855271a5/",
     },
     {
-      id: 6,
+      id: 7,
       name: "Sanchez Thomson N",
       designation: "Event Head",
       image: sanchez,
@@ -62,7 +71,7 @@ export const contactsData = [
       linkedIn: "https://www.linkedin.com/in/sanchez-thomson-neelamkavil-a3a6651a5",
     },
     {
-      id: 7,
+      id: 8,
       name: "Cijo Jose",
       designation: "Event Head",
       image: cijo,
