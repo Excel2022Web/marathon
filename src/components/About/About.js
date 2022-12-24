@@ -47,7 +47,7 @@ function About() {
               </div>
               <div className='ar__item'>
                 <FiClock className='ar__item_icon'/>
-                <p>6:30 am - 9:30 AM</p>
+                <p>6:00 am - 9:30 AM</p>
               </div>
             </div>
           </div>
