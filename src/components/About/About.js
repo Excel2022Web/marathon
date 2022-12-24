@@ -26,10 +26,10 @@ function About() {
 
               Yet there is a ton of stigma
               surrounding this. Many people are reluctant to open up and speak about mental health as they fear social exclusion. Mental health issues, if not attended to in the
-              right manner, can lead to devastating psychological effects crippling human life. <br />
+              right manner, can lead to devastating psychological effects crippling human life. <br /><br />
 
               One of the reasons for mental stress is the lack of physical activity due to the
-              increase in hours spent on electronic devices both for work and leisure.  <br />
+              increase in hours spent on electronic devices both for work and leisure.  <br /><br />
 
               Exercise
               can provide mental stress relief. Regular exercise can improve your mood, help you

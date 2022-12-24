@@ -54,7 +54,7 @@ export const contactsData = [
     },
     {
       id: 6,
-      name: "Pranav Jayasankar",
+      name: "Pranav Jayashankar",
       designation: "Event Head",
       image: pranav,
       phone: "9495936026",
