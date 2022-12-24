@@ -1,7 +1,7 @@
 import nasreen from "../assets/images/nasreen.jpeg";
 // import sebin from "../assets/images/sebin.jpeg";
 import khushi from "../assets/images/khushi.jpeg";
-import sania from "../assets/images/sania.png";
+import sania from "../assets/images/sania.jpeg";
 import cijo from "../assets/images/cijo.jpeg";
 import sanchez from "../assets/images/sanchez.jpeg";
 import pranav from "../assets/images/pranav.jpeg";
