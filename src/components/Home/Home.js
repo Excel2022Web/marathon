@@ -67,13 +67,13 @@ function Home() {
         <div className='home__left'>
           <h1>mindful miles <br /><span>matter</span></h1>
           <p>Run with us on 5th February to spread awareness and reduce the stigma around mental illness!</p>
-          <button className='home_reg_btn'>
+          <a href="https://rzp.io/l/KJABY9anV" target="_blank" rel="noreferrer" className='home_reg_btn'>
             Register Now
             <HiChevronDoubleRight />
-          </button>
+          </a>
         </div>
         <div className='home__right'>
-          <img src={landing_avatar} alt="" className='landing_avatar' data-aos="fade-left"  data-aos-easing="ease-in-sine"/>
+          <img src={landing_avatar} alt="" className='landing_avatar' data-aos="fade-left" data-aos-duration="1200"/>
         </div>
       </div>
       <img src={chart} alt="" className='landing_curve'/>

@@ -159,6 +159,7 @@
     cursor: pointer;
     text-transform: uppercase;
     margin-top: 0.5rem;
+    text-decoration: none;
 }
 
 .home__right {
