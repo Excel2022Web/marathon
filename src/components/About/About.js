@@ -19,7 +19,7 @@ function About() {
         </div>
         <div className='about__right' data-aos="fade-left" data-aos-duration="1200">
           <div className='ar__content'>
-            <h1>MENTAL HEALTH AWARENESS</h1>
+            <h1>HEADSTART - MENTAL HEALTH AWARENESS</h1>
             <p>
               They say a sound mind resides in a sound body. In this age of stress and anxiety,
               mental health issues are becoming commonplace.  <br /><br />
