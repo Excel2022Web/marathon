@@ -25,6 +25,10 @@
     background-color: #1CD0B0;
   }
 
+.primary_color {
+    color: #1CD0B0 !important;
+}
+
 .blue {
     color: var(--secondary-color) !important;
 }
