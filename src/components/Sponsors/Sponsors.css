@@ -30,6 +30,7 @@
 .sponsor_details {
     display: flex;
     width: 200px;
+    height: 200px;
     border-radius: 10px;
     pointer-events: none;
     cursor: pointer;
@@ -37,6 +38,7 @@
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .sponsor_details img {
@@ -51,9 +53,10 @@
 .sponsor_details h2 {
     font-family: var(--primary-font);
     color: var(--primary-color);
-    margin-top: 1rem;
+    margin-top: 1.15rem;
     font-size: 1.25rem;
     text-align: center;
+    font-weight: 500;
 }
 
 
@@ -90,6 +93,7 @@
     }
     .sponsor_details {
         width: 150px;
+        height: 150px;
     }
     .sponsor_details img {
         width: 120px;
