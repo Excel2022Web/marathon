@@ -50,6 +50,7 @@
 
 .about_map_div img {
     width: 440px;
+    pointer-events: none;
 }
 
 .about__right {
