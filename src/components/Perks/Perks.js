@@ -1,15 +1,36 @@
 import React from 'react'
 
 import './Perks.css'
-import PerksCard from './PerksCard'
+
 
 function Perks() {
   return (
     <div className='perks'>
         <div className='perks_container'>
-            <PerksCard />
-            <PerksCard />
-            <PerksCard />
+          <div className='perksCard'>
+            <div className='perksSquare' />
+            <div className='pc_container'>
+              <h2 className='pc_title'><span>50% off</span> gym subscription</h2>
+              <h4 className='pc_desc'>LEEWAY FITNESS CENTER</h4>
+              <p className='pc_details'>All marathon participants</p>
+            </div>
+          </div>
+          <div className='perksCard'>
+            <div className='perksSquare' />
+            <div className='pc_container'>
+              <h2 className='pc_title'><span>FREE</span> sports wear</h2>
+              <h4 className='pc_desc'>cosmos sports</h4>
+              <p className='pc_details'>First five people who complete the marathon</p>
+            </div>
+          </div>
+          <div className='perksCard'>
+            <div className='perksSquare' />
+            <div className='pc_container'>
+              <h2 className='pc_title'><span>FREE</span> GYM MEMBERSHIP</h2>
+              <h4 className='pc_desc'>LEEWAY FITNESS CENTER</h4>
+              <p className='pc_details'>First male and female to complete the marathon</p>
+            </div>
+        </div>
         </div>
     </div>
   )

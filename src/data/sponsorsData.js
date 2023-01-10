@@ -2,15 +2,16 @@
 import club_fm from  '../assets/logo/club_fm.svg'
 import leeway from  '../assets/logo/leeway.svg'
 import twentyfournews from  '../assets/logo/twentyfournews.png'
+import rotary from  '../assets/logo/rotary.png'
 
 export const sponsorsData = [
-    // {
-    //     id: 1,
-    //     name: 'UKExpress',
-    //     desc: '',
-    //     url: '',
-    //     logo: ukxpress
-    // },
+    {
+        id: 1,
+        name: 'Rotary',
+        desc: 'Community Partner',
+        url: '',
+        logo: rotary
+    },
     {
         id: 4,
         name: 'Leeway',

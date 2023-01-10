@@ -9,7 +9,7 @@ function LandingPage() {
     <div className='landingPage'>
       <Home />
       <About />
-      {/* <Perks /> */}
+      <Perks />
       <Sponsors />
       <Schedule />
       <Excel />

@@ -54,9 +54,10 @@
     font-family: var(--primary-font);
     color: var(--primary-color);
     margin-top: 1.15rem;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     text-align: center;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 
