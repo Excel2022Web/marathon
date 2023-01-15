@@ -73,7 +73,7 @@ function Home() {
           </a>
         </div>
         <div className='home__right'>
-          <img src={landing_avatar} alt="" className='landing_avatar' data-aos="fade-left" data-aos-duration="1200"/>
+          <img src={landing_avatar} alt="" className='landing_avatar' />
         </div>
       </div>
       <img src={chart} alt="" className='landing_curve'/>
