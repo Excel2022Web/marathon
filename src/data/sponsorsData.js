@@ -3,7 +3,7 @@ import leeway from  '../assets/logo/leeway.svg'
 import cosmos from  '../assets/logo/cosmos.svg'
 import twentyfournews from  '../assets/logo/twentyfournews.png'
 import rotary from  '../assets/logo/rotary.png'
-import radiomango from  '../assets/logo/radiomango.png'
+import radiomango from  '../assets/logo/radiomango.svg'
 import edracc from  '../assets/logo/edracc.jpeg'
 import yellowclub from  '../assets/logo/yellowclub.jpg'
 
