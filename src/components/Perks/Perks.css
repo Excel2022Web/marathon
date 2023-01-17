@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-  
+
 .perks_container {
     height: 100%;
     display: flex;
@@ -22,9 +22,9 @@
 
 .perksCard { 
     height: 250px;
-    width: 350px;
+    width: 370px;
     background-color: rgba(255, 255, 255, 0.2);
-    padding: 2.5rem;
+    padding: 2.5rem 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@
 .pc_title {
     color: #fff;
     font-family: var(--primary-font);
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 800;
     line-height: 1;
     text-transform: uppercase;
@@ -99,7 +99,7 @@
     }
 
     .pc_title {
-        font-size: 1.75rem;
+        font-size: 1.6rem;
     }
     .pc_desc {
         font-size: 1.05rem;

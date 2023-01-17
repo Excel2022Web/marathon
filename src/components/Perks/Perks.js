@@ -10,7 +10,7 @@ function Perks() {
           <div className='perksCard'>
             <div className='perksSquare' />
             <div className='pc_container'>
-              <h2 className='pc_title'><span>50% off</span> gym subscription</h2>
+              <h2 className='pc_title'><span>40% off</span> gym subscription</h2>
               <h4 className='pc_desc'>LEEWAY FITNESS CENTER</h4>
               <p className='pc_details'>All marathon participants</p>
             </div>
@@ -28,6 +28,14 @@ function Perks() {
             <div className='pc_container'>
               <h2 className='pc_title'><span>FREE</span> GYM MEMBERSHIP</h2>
               <h4 className='pc_desc'>LEEWAY FITNESS CENTER</h4>
+              <p className='pc_details'>First male and female to complete the marathon</p>
+            </div>
+          </div>
+          <div className='perksCard'>
+            <div className='perksSquare' />
+            <div className='pc_container'>
+              <h2 className='pc_title'><span>upto ₹1000 </span>therapy session discount</h2>
+              <h4 className='pc_desc'>YELLOW CLUB</h4>
               <p className='pc_details'>First male and female to complete the marathon</p>
             </div>
           </div>
