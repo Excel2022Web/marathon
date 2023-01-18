@@ -24,6 +24,8 @@
 
 .about_map_div {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
 }
 .map_event {
@@ -51,6 +53,19 @@
 .about_map_div img {
     width: 440px;
     pointer-events: none;
+}
+
+.about_map_div h1 {
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    line-height: 106%;
+    font-weight: 500;
+    color: #ECF5F8;
+    margin-top: 1rem;
+}
+
+.bold9 {
+    font-weight: 900;
 }
 
 .about__right {
@@ -192,6 +207,9 @@
     .ar__content h1 {
         font-size: 2rem;
         padding: 0 2rem;
+    }
+    .about_map_div h1 {
+        font-size: 1.5rem;
     }
     .ar__content p {
         padding: 0 2rem;
