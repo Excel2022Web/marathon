@@ -15,7 +15,7 @@ function About() {
               <p>Marathon Route</p>
             </div>
             <img src={map} alt="" />
-            <h1>Total Distance - <span className='primary_color bold9'>10KM</span></h1>
+            <h1>Total Distance - <span className='bold9'>10KM</span></h1>
           </div>
         </div>
         <div className='about__right' data-aos="fade-left" data-aos-duration="1200">
