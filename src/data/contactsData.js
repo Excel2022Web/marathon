@@ -5,6 +5,7 @@ import sania from "../assets/images/sania.jpeg";
 import cijo from "../assets/images/cijo.jpeg";
 import sanchez from "../assets/images/sanchez.jpeg";
 import pranav from "../assets/images/pranav.jpeg";
+import tresa from "../assets/images/tresa.jpeg";
 
 export const contactsData = [
     {
@@ -78,5 +79,14 @@ export const contactsData = [
       phone: "9496993697",
       email: "cjcode2022@gmail.com",
       linkedIn: "https://www.linkedin.com/in/cijo-jose-01b59425a/",
+    },
+    {
+      id: 9,
+      name: "Tresa Maria Biju",
+      designation: "Event Head",
+      image: tresa,
+      phone: "8281263817",
+      email: "tresamariabiju@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/tresa-maria-biju-ba16bb202/",
     },
 ]
