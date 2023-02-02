@@ -67,10 +67,10 @@ function Home() {
         <div className='home__left'>
           <h1>mindful miles <br /><span>matter</span></h1>
           <p>Run with us on 5th February to spread awareness and reduce the stigma around mental illness!</p>
-          <a href="https://rzp.io/l/head-start" target="_blank" rel="noreferrer" className='home_reg_btn'>
-            Register Now
+          <div className='home_reg_btn'>
+            Reg. Closed
             <HiChevronDoubleRight />
-          </a>
+          </div>
         </div>
         <div className='home__right'>
           <img src={landing_avatar} alt="" className='landing_avatar' />
